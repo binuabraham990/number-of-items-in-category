@@ -1,0 +1,33 @@
+{
+    "name": "swag/plugin-skeleton",
+    "description": "Number of items in category",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Binu Abraham",
+            "homepage": "https://github.com/binuabraham990"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NtfxNumberOfItemsInCategory\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "^6.4",
+        "shopware/storefront": "^6.4"
+    },
+    "extra": {
+        "shopware-plugin-class": "NtfxNumberOfItemsInCategory\\NtfxNumberOfItemsInCategory",
+        "label": {
+            "de-DE": "Anzahl der Artikel in der Kategorie",
+            "en-GB": "Number of items in category"
+        },
+        "description": {
+            "de-DE": "Zeigt die Anzahl der Artikel der Kategorie auf der Kategorieseite an.",
+            "en-GB": "Show the number of items of the category on the category page."
+        }
+    }
+}
